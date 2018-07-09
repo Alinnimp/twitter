@@ -21,22 +21,23 @@ body {
   margin: 50px;
 
 }
-.input-area{
+#input-area{
   height: 100px;
   font-size: 15px;
   font-family: 'Segoe UI', Arial, sans-serif;
   width: max-content;
 }
-.button{
-  background-color: #D6CCD0;
+#button{
+  /* background-color: #D6CCD0; */
+  /* background-color: blue; */
   width: fit-content;
-  border: transparent;
+  /* border: transparent; */
   border-radius: 100px;
   font-family: 'Segoe UI' Arial, sans-serif;
   line-height: 20px;
   padding: 6px 20px;
   font-weight: bold;
-  color: white;
+  /* color: white; */
   margin-top: 5px;
 }
 /* [data-icon]:before { 
@@ -56,11 +57,10 @@ body {
   padding-left: 206px;
 }
 p {
-  position: relative;
   bottom: 15px;
   right: 130px;
 }
-.input-text{
+#input-text{
   background-color: white;
   height: 100px;
   display: flex;

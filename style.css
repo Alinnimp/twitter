@@ -1,0 +1,70 @@
+body {
+  background-image: url("https://www.themexpert.com/images/easyblog_articles/270/twitter_cover.jpg");
+  background-size: cover;
+
+}
+#header {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 150px;
+  margin-top: 40px;
+  font-family: 'Segoe UI',Arial, sans-serif;
+  color: white;
+  font-size: 45px;
+}
+.areaText{
+  display: flex;
+  flex-direction: column;
+  bottom: 190px;
+  align-items: flex-end;
+  position: relative;
+  margin: 50px;
+
+}
+.input-area{
+  height: 100px;
+  font-size: 15px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  width: max-content;
+}
+.button{
+  background-color: #D6CCD0;
+  width: fit-content;
+  border: transparent;
+  border-radius: 100px;
+  font-family: 'Segoe UI' Arial, sans-serif;
+  line-height: 20px;
+  padding: 6px 20px;
+  font-weight: bold;
+  color: white;
+  margin-top: 5px;
+}
+/* [data-icon]:before { 
+  content: attr(data-icon);
+  color: white;
+
+}*/
+
+.name{
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 21px;
+  display: flex;
+  background-color: white;
+  width: max-content;
+  padding: 10px;
+  margin: 30px;
+  padding-left: 206px;
+}
+p {
+  position: relative;
+  bottom: 15px;
+  right: 130px;
+}
+.input-text{
+  background-color: white;
+  height: 100px;
+  display: flex;
+  position: relative;
+  bottom: 170px;
+  margin: 100px;
+}

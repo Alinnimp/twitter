@@ -28,23 +28,19 @@ body {
   width: max-content;
 }
 #button{
-  /* background-color: #D6CCD0; */
-  /* background-color: blue; */
+  /* background-color: #D6CCD0;  */
+  background-color: blue;
   width: fit-content;
-  /* border: transparent; */
+  border: transparent; 
   border-radius: 100px;
   font-family: 'Segoe UI' Arial, sans-serif;
   line-height: 20px;
   padding: 6px 20px;
   font-weight: bold;
-  /* color: white; */
+  color: white;  
   margin-top: 5px;
 }
-/* [data-icon]:before { 
-  content: attr(data-icon);
-  color: white;
 
-}*/
 
 .name{
   font-family: 'Segoe UI', Arial, sans-serif;
@@ -68,19 +64,19 @@ p {
   bottom: 170px;
   margin: 100px;
 }
-.colorDef {
+.color-def {
   color: black;
   font-weight: bold;
 }
  
- .colorUm {
+.colorUm {
   color: green;
  }
  
- .colorDois {
+.colorDois {
   color: orange;
  }
  
- .colorTres {
+.colorTres {
   color: red;
  }

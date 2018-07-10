@@ -16,11 +16,13 @@
         soy front-end developer jr.<br></p>
       </div>
     <div class="areaText">
-      <textarea id="input-area" cols="90" placeholder="O que esta acontecendo?" wrap="hard"></textarea>
+      <textarea onkeyup ="limiteText(this.value)" id="input-area" cols="90" placeholder="O que esta acontecendo?" wrap="hard"></textarea>
       <button id="button" type="submit" value="Tweetar">Tweetar</button>
+      <span id="cont" class="colorDef" "colorUm" "colorDois" "colorTres">140</span>
     </div>
     <div id="input-text"> </div>
   </body>
 <script src="app.js" type="text/javascript"></script>
+<script type="text/javascript" src="moment-with-locales.js"></script>
 </html>
 
